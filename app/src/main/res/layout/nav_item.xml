@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:gravity="center"
+    android:singleLine="true"
+    android:minHeight="?attr/actionBarSize"
+    android:padding="@dimen/text_margin"
+    android:textColor="@color/primary_text"
+    android:textSize="@dimen/subTitle"></TextView>

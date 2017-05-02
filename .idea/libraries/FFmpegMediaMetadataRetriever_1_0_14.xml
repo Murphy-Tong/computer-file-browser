@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="FFmpegMediaMetadataRetriever-1.0.14">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/c13fa8ab47adf64e7fbd2ce7e7d84e631d9f7166/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/c13fa8ab47adf64e7fbd2ce7e7d84e631d9f7166/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.wseemann/FFmpegMediaMetadataRetriever/1.0.14/2d4ce6b7b3f8303af3e7fd0bf5387fb59bf00d48/FFmpegMediaMetadataRetriever-1.0.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

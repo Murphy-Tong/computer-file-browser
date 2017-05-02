@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.tong.zyang.cpfm"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //    # required, enough for most devices.
+    //    # Other ABIs: optional
+    compile files('libs/gson-2.5.jar')
+    //    compile 'com.github.wseemann:FFmpegMediaMetadataRetriever-armeabi:1.0.14'
+//    compile 'com.github.wseemann:FFmpegMediaMetadataRetriever-armeabi-v7a:1.0.14'
+//    compile 'com.github.wseemann:FFmpegMediaMetadataRetriever-x86:1.0.14'
+//    compile 'com.github.wseemann:FFmpegMediaMetadataRetriever-mips:1.0.14'
+//    compile 'com.github.wseemann:FFmpegMediaMetadataRetriever-x86_64:1.0.14'
+//    compile 'com.github.wseemann:FFmpegMediaMetadataRetriever-arm64-v8a:1.0.14'
+    compile files('libs/disklrucache-2.0.2.jar')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.7.9'
+    compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.9'
+    compile 'tv.danmaku.ijk.media:ijkplayer-armv5:0.7.9'
+    compile 'tv.danmaku.ijk.media:ijkplayer-arm64:0.7.9'
+    compile 'tv.danmaku.ijk.media:ijkplayer-x86:0.7.9'
+    compile 'tv.danmaku.ijk.media:ijkplayer-x86_64:0.7.9'
+//    compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.7.9'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    compile 'com.android.support:cardview-v7:26.0.0-alpha1'
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14'
+    testCompile 'junit:junit:4.12'
+}

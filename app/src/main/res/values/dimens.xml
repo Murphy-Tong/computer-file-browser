@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="popListItem">56dp</dimen>
+    <dimen name="subTitle">16sp</dimen>
+    <dimen name="mainText">14sp</dimen>
+    <dimen name="divider">128dp</dimen>
+    <dimen name="infoText">12sp</dimen>
+    <dimen name="SumText">24sp</dimen>
+    <dimen name="appBarText">20sp</dimen>
+    <dimen name="pop_list_bottom_margin">8dp</dimen>
+    <dimen name="pop_list_divier_height">1dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="ijk_horizontal_margin">@dimen/activity_horizontal_margin</dimen>
+    <dimen name="ijk_vertical_margin">@dimen/activity_vertical_margin</dimen>
+</resources>

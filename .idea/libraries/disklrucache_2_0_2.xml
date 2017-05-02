@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="disklrucache-2.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/disklrucache-2.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/disklrucache-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

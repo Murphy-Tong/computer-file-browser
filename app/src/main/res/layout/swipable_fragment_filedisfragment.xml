@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tong.zyang.cpfm.view.SwipActionRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:layout_marginBottom="8dp"
+    android:elevation="3dp">
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/text_margin"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/confg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/text_margin"
+        android:layout_toLeftOf="@id/type"
+        android:maxLines="1"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/confg"
+        android:ellipsize="middle"
+        android:gravity="left"
+        android:maxLines="1"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+
+</com.tong.zyang.cpfm.view.SwipActionRelativeLayout>

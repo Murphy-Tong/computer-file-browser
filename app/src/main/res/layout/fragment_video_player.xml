@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/surfaceView"/>
+
+    <RelativeLayout
+        android:id="@+id/buffView"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/process"
+            />
+<!--        <TextView
+            android:layout_below="@id/process"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/process_text"
+            android:textColor="@color/accent"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="8dp"
+            android:text="asdsd"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/infoText"/>-->
+
+    </RelativeLayout>
+
+    <FrameLayout
+
+        android:id="@+id/play_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginLeft="3dp"
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/dummy_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/ic_media_pause"/>
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/horizonProbar"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

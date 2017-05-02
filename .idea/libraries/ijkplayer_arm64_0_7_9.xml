@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ijkplayer-arm64-0.7.9">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/9ae5c27a2887f80e479c051bc1542121dafe09cf/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/9ae5c27a2887f80e479c051bc1542121dafe09cf/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
