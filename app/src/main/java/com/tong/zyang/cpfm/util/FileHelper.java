@@ -216,7 +216,7 @@ public class FileHelper {
                     mmr.setDataSource(str, new HashMap<String, String>());
                     String time = mmr.extractMetadata(FFmpegMediaMetadataRetriever.METADATA_KEY_DURATION);
                     if (!TextUtils.isEmpty(time) && first.errorTimes == 0) {
-                        bitmap = mmr.getFrameAtTime(((Long.parseLong(time) >> 2) * 1000), FFmpegMediaMetadataRetriever.OPTION_CLOSEST);
+                        bitmap = mmr.getFrameAtTime(((Long.parseLong(time) >> 6) * 1000), FFmpegMediaMetadataRetriever.OPTION_NEXT_SYNC);
                     }
 
                     if (first.errorTimes > 0) {

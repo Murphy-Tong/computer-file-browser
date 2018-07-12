@@ -21,7 +21,6 @@
 
 
         <TextureView
-            android:background="@drawable/img_ripple_bg"
             android:clickable="true"
             android:id="@+id/surfaceView"
             android:layout_width="match_parent"
